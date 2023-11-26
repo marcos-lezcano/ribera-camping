@@ -1,0 +1,12 @@
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.1.0  # Especifica la versión del repositorio de ganchos
+    hooks:
+      - id: trailing-whitespace
+        # Elimina los espacios en blanco al final de las líneas
+      - id: check-yaml
+        # Comprueba si los archivos YAML están bien formados
+      - id: end-of-file-fixer
+        # Asegura que los archivos terminen con una línea en blanco
+      - id: check-added-large-files
+        # Previene añadir accidentalmente archivos grandes
